@@ -1,0 +1,13 @@
+/* About Me Section */
+.about-text {
+  margin: 0;
+  text-align: justify;
+  transition: color 0.3s ease;
+}
+
+.dark-mode .about-text {
+  color: #cbd5e0;
+}
+
+
+

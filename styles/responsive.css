@@ -1,0 +1,203 @@
+/* Responsive Design - Mobile */
+@media (max-width: 768px) {
+  .dark-mode-toggle {
+    top: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  .mobile-nav {
+    display: block;
+    top: 15px;
+    right: 15px;
+  }
+
+  .mobile-nav-toggle {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+
+  .mobile-nav-menu {
+    top: 55px;
+    min-width: 180px;
+  }
+
+  .profile-container {
+    padding: 15px;
+  }
+
+  .profile-header {
+    padding: 25px 20px;
+    border-radius: 15px;
+  }
+
+  .profile-header-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .avatar-circle {
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+  }
+
+  .profile-name {
+    font-size: 32px;
+  }
+
+  .profile-title {
+    font-size: 18px;
+  }
+
+  .profile-badges {
+    justify-content: center;
+  }
+
+  .profile-section {
+    padding: 25px 20px;
+    border-radius: 15px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .title-icon {
+    font-size: 28px;
+  }
+
+  .projects-timeline {
+    padding-left: 30px;
+  }
+
+  .timeline-marker {
+    left: -30px;
+    width: 20px;
+  }
+
+  .marker-dot {
+    width: 14px;
+    height: 14px;
+    border-width: 3px;
+  }
+
+  .project-content {
+    padding: 20px;
+  }
+
+  .project-content:hover {
+    transform: translateX(3px);
+  }
+
+  .project-title {
+    font-size: 20px;
+  }
+
+  .skills-languages-row {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 12px;
+  }
+
+  .skill-item {
+    padding: 12px;
+  }
+
+  .skill-name {
+    font-size: 14px;
+  }
+
+  .education-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .education-period {
+    align-self: flex-start;
+  }
+
+  .education-details {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .about-text {
+    text-align: left;
+  }
+}
+
+/* Responsive Design - Small Mobile */
+@media (max-width: 480px) {
+  .dark-mode-toggle {
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .mobile-nav {
+    top: 10px;
+    right: 10px;
+  }
+
+  .mobile-nav-toggle {
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
+  }
+
+  .mobile-nav-menu {
+    top: 50px;
+    min-width: 160px;
+  }
+
+  .mobile-nav-item {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+
+  .nav-icon {
+    font-size: 18px;
+    width: 20px;
+  }
+
+  .profile-name {
+    font-size: 28px;
+  }
+
+  .profile-title {
+    font-size: 16px;
+  }
+
+  .section-title {
+    font-size: 22px;
+  }
+
+  .project-title {
+    font-size: 18px;
+  }
+
+  .education-school {
+    font-size: 16px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+

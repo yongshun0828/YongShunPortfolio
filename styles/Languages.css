@@ -1,0 +1,36 @@
+/* Languages Section */
+.languages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.language-item {
+  background: #f7fafc;
+  padding: 18px 20px;
+  border-radius: 12px;
+  border-left: 4px solid #667eea;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.dark-mode .language-item {
+  background: #1a202c;
+}
+
+.language-item:hover {
+  transform: translateX(5px);
+}
+
+.language-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d3748;
+  transition: color 0.3s ease;
+}
+
+.dark-mode .language-name {
+  color: #f7fafc;
+}
+
+
+
