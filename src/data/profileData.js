@@ -2,7 +2,7 @@ export const profileInfo = {
   name: 'Lew Yong Shun',
   title: 'Fresh Graduate Software Engineer',
   badges: ['Full Stack Developer'],
-  photo: '/lysPhoto.jpg',
+  photo: `${process.env.PUBLIC_URL}/lysPhoto.jpg`,
   email: 'lewyongshun@gmail.com',
   phone: '0196922706',
   aboutMe: `I'm a detail-oriented Full Stack Developer with practical experience from a six-month
