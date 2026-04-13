@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/YongShunPortfolio/static/css/main.937e45b7.css",
+    "main.js": "/YongShunPortfolio/static/js/main.5686a250.js",
+    "static/js/453.117b0875.chunk.js": "/YongShunPortfolio/static/js/453.117b0875.chunk.js",
+    "index.html": "/YongShunPortfolio/index.html",
+    "main.937e45b7.css.map": "/YongShunPortfolio/static/css/main.937e45b7.css.map",
+    "main.5686a250.js.map": "/YongShunPortfolio/static/js/main.5686a250.js.map",
+    "453.117b0875.chunk.js.map": "/YongShunPortfolio/static/js/453.117b0875.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.937e45b7.css",
+    "static/js/main.5686a250.js"
+  ]
+}
