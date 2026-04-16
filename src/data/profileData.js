@@ -16,11 +16,13 @@ export const profileInfo = {
 export const projects = [
   {
     title: 'Internship Project – Vue.js Web Application',
+    link: 'https://www.g2g.com/my',
     description: 'Developed front-end features using Vue.js, including building a dynamic and responsive banner component and optimizing UI performance. Collaborated with the backend team to integrate APIs and ensure smooth data flow, while following best practices in component structure, code quality, and Git version control.',
     tech: ['Vue.js', 'JavaScript', 'API Integration']
   },
   {
     title: 'Hotel Reservations System',
+    link: 'https://yongshun0828.github.io/hotel-booking-web-page-of-KokHan-Hotel/',
     description: 'Developed a Hotel Reservation System using HTML, CSS, JavaScript, and C#. Created a user-friendly interface for room booking, availability checks, and payment processing. Implemented backend logic in C# for managing reservations, customer data, and email confirmations.',
     tech: ['HTML', 'CSS', 'JavaScript', 'C#']
   },

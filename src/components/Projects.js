@@ -17,7 +17,18 @@ const Projects = ({ projects }) => {
             </div>
             <div className="project-content">
               <div className="project-header">
-                <h3 className="project-title">{project.title}</h3>
+                {project.link ? (
+                  <a
+                    className="project-title project-title-link"
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {project.title}
+                  </a>
+                ) : (
+                  <h3 className="project-title">{project.title}</h3>
+                )}
               </div>
               <p className="project-description">{project.description}</p>
               <div className="project-tech">

@@ -98,6 +98,22 @@
   background-clip: text;
 }
 
+.project-title-link {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.project-title-link:hover {
+  filter: brightness(1.07);
+}
+
+.project-title-link:focus {
+  outline: 2px solid #667eea;
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
 .project-description {
   color: #4a5568;
   line-height: 1.8;
