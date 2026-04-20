@@ -13,6 +13,12 @@ export const profileInfo = {
     front-end expertise and expand my contributions across the stack.`
 };
 
+export const socialLinks = {
+  whatsapp: 'https://wa.me/60196922706?text=Hi!%20%20This%20is%20Yong%20Shun.%20Nice%20to%20connect%20with%20you!',
+  linkedin: 'https://www.linkedin.com/in/yong-shun-lew-089b50351',
+  instagram: 'https://www.instagram.com/yongshun.0828?igsh=MWg3bnBkcmhqMWw5cQ%3D%3D&utm_source=qr'
+};
+
 export const projects = [
   {
     title: 'Internship Project – Vue.js Web Application',

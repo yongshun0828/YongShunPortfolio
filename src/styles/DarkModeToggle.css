@@ -29,10 +29,25 @@
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
-/* Hide dark mode toggle on mobile - it's in the menu */
+/* Keep dark mode toggle visible on mobile */
 @media (max-width: 768px) {
   .dark-mode-toggle {
-    display: none;
+    display: flex;
+    top: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dark-mode-toggle {
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 18px;
   }
 }
 

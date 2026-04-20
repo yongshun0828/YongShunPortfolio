@@ -11,7 +11,7 @@
   .mobile-nav {
     display: block;
     top: 15px;
-    right: 15px;
+    right: 70px;
   }
 
   .mobile-nav-toggle {
@@ -136,6 +136,16 @@
   .about-text {
     text-align: left;
   }
+
+  .social-footer {
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .social-icon-link {
+    width: 48px;
+    height: 48px;
+  }
 }
 
 /* Responsive Design - Small Mobile */
@@ -150,7 +160,7 @@
 
   .mobile-nav {
     top: 10px;
-    right: 10px;
+    right: 60px;
   }
 
   .mobile-nav-toggle {

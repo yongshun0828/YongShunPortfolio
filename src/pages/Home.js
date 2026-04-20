@@ -9,7 +9,8 @@ import Languages from '../components/Languages';
 import Education from '../components/Education';
 import DarkModeToggle from '../components/DarkModeToggle';
 import MobileNav from '../components/MobileNav';
-import { profileInfo, projects, expertise, languages, education } from '../data/profileData';
+import SocialFooter from '../components/SocialFooter';
+import { profileInfo, projects, expertise, languages, education, socialLinks } from '../data/profileData';
 
 const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -69,6 +70,7 @@ const Home = () => {
         </div>
         <Education education={education} />
       </div>
+      <SocialFooter socialLinks={socialLinks} />
     </div>
   );
 };
