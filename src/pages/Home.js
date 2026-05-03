@@ -7,10 +7,11 @@ import Projects from '../components/Projects';
 import Expertise from '../components/Expertise';
 import Languages from '../components/Languages';
 import Education from '../components/Education';
+import Experience from '../components/Experience';
 import DarkModeToggle from '../components/DarkModeToggle';
 import MobileNav from '../components/MobileNav';
 import SocialFooter from '../components/SocialFooter';
-import { profileInfo, projects, expertise, languages, education, socialLinks } from '../data/profileData';
+import { profileInfo, projects, expertise, languages, experience, education, socialLinks } from '../data/profileData';
 
 const Home = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -68,6 +69,7 @@ const Home = () => {
           <Expertise expertise={expertise} />
           <Languages languages={languages} />
         </div>
+        <Experience experience={experience} />
         <Education education={education} />
       </div>
       <SocialFooter socialLinks={socialLinks} />
